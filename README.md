@@ -7,9 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-# Simple Example CRUD Laravel 5.7
+# Site, Task, User CRUD Laravel 5.7
 
-> Example 5.7, news features to development
+> dashboard, site management, task management, user management
 
 ## Download
 First, clone project:
