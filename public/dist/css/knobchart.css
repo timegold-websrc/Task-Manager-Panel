@@ -1,0 +1,12 @@
+.knob-wrap {
+    display: block;
+    text-align: center;
+}
+.knob-round-nock{
+	height:130px;
+}
+.knob-ctn-nock h5{
+	padding-top: 10px;
+    color: #78889e !important;
+    font-size: 11pt;
+}

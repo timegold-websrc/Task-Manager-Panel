@@ -1,0 +1,53 @@
+.v-graph-container{
+    height: 600px;
+}
+.v-graph-container .v-graph{
+
+}
+.v-graph-container .v-graph .v-graph-row{
+    height: 200px;
+    vertical-align: bottom;
+}
+.v-graph-container .v-graph .v-graph-column{
+    width: 12px;
+    height: 0px;
+    background-color: #4371bc;
+    opacity: 1;
+}
+.v-graph-container .v-graph .v-graph-column.active,
+.v-graph-container .v-graph .v-graph-column:hover{
+    /* background-color: #5f96f0; */
+    opacity: 0.7;
+}
+
+.g-bar-chart tr,
+.g-bar-chart td{
+    padding: 0px;
+    margin: 0px;
+    /* display: flex; */
+}
+.g-bar-chart .g-cell{
+    display: flex;
+    align-items: flex-end;
+    border-right: 1px #dee3e8 solid;
+    border-bottom: 1px #dee3e8 solid;
+}
+.g-bar-chart .g-cell .g-bar{
+    background-color: #4371bc;
+}
+
+.g-bar-chart .g-cell .g-bar.active,
+.g-bar-chart .g-cell .g-bar:hover{
+    opacity: 0.7;
+}
+
+.grid-bar-chart-wrapper .hover-line{
+    width: 0px;
+    border-right: 1px dashed;
+    position: absolute;
+    display: none;
+}
+
+.grid-bar-chart-wrapper .hover-line.active{
+    display: block;
+}
