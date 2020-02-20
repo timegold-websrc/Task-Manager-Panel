@@ -15,7 +15,7 @@
 First, clone project:
 ``` bash
 # clone
-git clone https://github.com/carlosfgti/crud-laravel-5.7.git
+https://github.com/timegold-websrc/Task-Manager-Panel.git
 
 # Access project
 cd crud-laravel-5.7
